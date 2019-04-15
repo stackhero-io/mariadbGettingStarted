@@ -55,9 +55,8 @@ const faker = require('faker');
 
 
   // Count number of rows in table users
-  const usersCount = await db.query('SELECT COUNT(*) FROM `stackherotest`.`users`');
-  console.log(usersCount);
-  console.log(`There is now ${usersCount} in table "users"`);
+  const [ usersCount ] = await db.query('SELECT COUNT(*) AS `cpt` FROM `stackherotest`.`users`');
+  console.log(`There is now ${usersCount[0].cpt} in table "users"`);
 
   await db.end();
 })().catch(error => {
