@@ -1,6 +1,17 @@
 # Getting started with MariaDB
 
-Note: this example should works with MySQL too but it could be better to use the dedicated code available on [https://github.com/stackhero-io/mysqlGettingStarted](https://github.com/stackhero-io/mysqlGettingStarted).
+> Note: this example should works with MySQL too but it could be better to use the dedicated code available on [https://github.com/stackhero-io/mysqlGettingStarted](https://github.com/stackhero-io/mysqlGettingStarted).
+
+
+## How to send data from Node.js to MariaDB
+
+You can find here some examples of Node.js code to send data to a MariaDB server.
+
+These examples are designed to run with a Stackhero for MariaDB.
+You'll more informations about Stackhero here:
+- [MariaDB cloud](https://www.stackhero.io/en/services/MariaDB/benefits)
+- [MariaDB pricing](https://www.stackhero.io/en/services/MariaDB/pricing)
+- [MariaDB documentations](https://www.stackhero.io/en/services/MariaDB/documentations)
 
 
 ## How to use
